@@ -1,0 +1,18 @@
+<?php
+// config/autoload/local.php:
+return array(
+    'db' => array(
+        'username' => 'USERNAME',
+        'password' => 'PASSWORD',
+    ),
+    'doctrine' => array(
+        'connection' => array(
+            'orm_default' => array(
+                'params' => array(
+                    'user'     => 'USERNAME',
+                    'password' => 'PASSWORD',
+                )
+            )
+        )
+    ),
+);
